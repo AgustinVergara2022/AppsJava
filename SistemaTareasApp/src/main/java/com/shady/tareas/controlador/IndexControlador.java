@@ -87,6 +87,9 @@ public class IndexControlador implements Initializable {
             mostrarMensaje("Información", "Tarea agregada");
             limpiarFormulario();
             listarTareas();
+            for (Tarea tarea1 : tareaList) {
+                
+            }
         }
     }
 
